@@ -1592,9 +1592,12 @@ ul.no-bullet {
 ul.no-bullet>li {
     display: inline;
 }
+.single-post {
+    margin: 30px 0;
+}
 div.widget {
     display: inline-block;
-    margin: 10px 0;
+ /*   margin: 10px 0;*/
 }
 
 div.widget>form>select {
@@ -1606,7 +1609,7 @@ div.widget>form>select {
 
 @media (min-width: 509px) {
     div.widget {
-        margin: 20px 0;
+    /*    margin: 20px 0;*/
     }
     div.widget>form>select {
         margin-top: 3px;
@@ -1637,6 +1640,66 @@ div.blog-box {
     width: 80%;
     margin: 0 auto 40px auto;
     padding: 0 20px;
+}
+
+div.navigation-box {
+    background: #f9f6f3;
+    position: relative;
+    height: 100px;
+    width: 29%;
+    margin: 20px;
+    padding: 0 20px;
+}
+
+hr.blog {
+    width: 750px;
+    border: 0;
+    border-bottom: 1px dashed #bfd030;
+}
+
+hr.meta-deets {
+    width: 250px;
+    border: 0;
+    border-bottom: 1px dashed #bfd030;
+}
+
+p.comment-form-comment>label {
+    display: none;
+}
+p.form-submit>input#submit {
+    background: #fff;
+    font-family:  'Amatic SC', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    border: 1px dashed #f26621;
+    color: #f26621;
+    border-radius: 20px;
+    box-shadow: 2px 2px rgba(33, 33, 33, 0.2);
+    padding: 0 20px;
+}
+
+p.form-submit>input#submit:hover {
+    background: transparent;
+  /*  opacity: 0.95;*/
+    color: #f26621;
+    box-shadow: -1px -1px rgba(33, 33, 33, 0.2);
+}
+
+h3.comments-title {
+    font-family:  'Amatic SC', cursive;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 28px;
+    color: #bfd030;   
+}
+
+div.reply {
+    margin-bottom: 20px;
+}
+
+.green {
+    color: #bfd030;
 }
 
 @media (min-width: 350px) {
@@ -1679,6 +1742,6 @@ div.blog-box {
     div.blog-box {
         height: 360px;
         width: 29%;
-        margin: 0 20px;
+        margin: 20px;
     }
 }

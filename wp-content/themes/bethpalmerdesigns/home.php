@@ -6,8 +6,8 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h3>Most recent blog posts</h3>
-       <!--          <p class="summary-text">Knowledge is power, let's share the crap out of it!</p> -->
+                <h1>Welcome to the Blog</h1>
+                <p class="summary-text">Most recent posts show at the top</p>
             </div>
         </div>
 
