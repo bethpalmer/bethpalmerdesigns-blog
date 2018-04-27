@@ -68,7 +68,7 @@
                 </div>
                 <div class="col-12 col-sm-4 navigation-box stitch text-center">
                     <h5 class="green">Blog Home Page</h5>
-                    <a href="<?php bloginfo('url'); ?>/portfolio">Main Blog Page</a>
+                    <a href="<?php bloginfo('url'); ?>">Main Blog Page</a>
                 </div>
                 <div class="col-12 col-sm-4 navigation-box stitch text-center">
                     <h5 class="green">Next Post</h5>

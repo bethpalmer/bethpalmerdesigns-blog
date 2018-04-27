@@ -7,7 +7,7 @@
         <div class="row">
             <div class="col-sm-12 text-center">
                 <h1>Welcome to the Blog</h1>
-                <p class="summary-text">Most recent posts show at the top</p>
+                <p class="summary-text">-- Most recent posts show at the top --</p>
             </div>
         </div>
 
